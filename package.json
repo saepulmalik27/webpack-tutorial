@@ -4,11 +4,13 @@
   "description": "create realtime chat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.21",
     "vue": "^3.0.11"
   },
   "devDependencies": {
